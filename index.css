@@ -1,3 +1,6 @@
+:root {
+  --accent-color: #75b4cf;
+}
 body {
   margin: 0;
   padding: 0;
@@ -18,7 +21,7 @@ a:any-link {
   left: 0;
   right: 0;
   height: 50px;
-  background: #75b4cf;
+  background: var(--accent-color);
   color: #fff !important;
   display: flex;
   justify-content: center;
@@ -63,6 +66,11 @@ a:any-link {
   height: 45vh;
   background-position: 70% 0%;
 }
+.section-image.service {
+  background-image: url(images/service.jpg);
+  height: 45vh;
+  background-position: 70% 0%;
+}
 .section-image.contact {
   background-image: url(images/contact.jpg);
   height: 80vh;
@@ -104,15 +112,6 @@ a:any-link {
   flex-direction: row;
   border-radius: 10px;
 }
-.info {
-  flex-basis: 50%;
-  width: 50%;
-  height: 100%;
-  border: 5px solid rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  display: flex;
-  align-items: center;
-}
 .name {
   font-size: xx-large;
   margin: 10px;
@@ -136,7 +135,7 @@ a:any-link {
 #contact {
 }
 #footer {
-  background: #75b4cf;
+  background: var(--accent-color);
   color: #fff;
   height: 50px;
 }
@@ -177,14 +176,14 @@ a:any-link {
   width: 100%;
   max-width: 70vw;
   max-height: 85vh;
-  padding: 30px;
+  padding: 50px 30px 30px 30px;
   position: relative;
   border-radius: 10px;
 }
 #closeButton {
   position: sticky;
   right: 10px;
-  top: 10px;
+  top: 0px;
   width: 150px;
   border-radius: 10px;
   border: 2px solid;
@@ -198,19 +197,36 @@ a:any-link {
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 1);
 }
 .infoButton {
-  border-radius: 50%;
+  border-radius: 10px;
   border: 2px solid #fff;
   background-color: #0dbedc;
-  height: 45px;
-  width: 45px;
+  padding: 0 15px;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 .infoButton:hover {
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+}
+#socialBar {
+  display: flex;
+}
+#socialBar > a {
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+#socialBar > a:hover {
+  background-color: #fff;
+  color: var(--accent-color);
 }
