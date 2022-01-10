@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #75b4cf;
+  --accent-color: #A0B5CF;
 }
 body {
   margin: 0;
@@ -11,6 +11,15 @@ body {
 body * {
   box-sizing: border-box;
 }
+.logo {
+  background-color: #A0B5CF;
+  background-image: url("/images/LOGO/1-A0B5CF.svg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 50% 50%;
+  height: 100px;
+  width: 300px;
+}
 a:any-link {
   color: unset;
   text-decoration: none;
@@ -20,7 +29,8 @@ a:any-link {
   top: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  height: 80px;
+  overflow: hidden;
   background: var(--accent-color);
   color: #fff !important;
   display: flex;
@@ -37,7 +47,7 @@ a:any-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 200px;
+  min-width: 100px;
   text-align: center;
   cursor: pointer;
   height: 50px;
