@@ -42,7 +42,7 @@ div[class*='WidgetTitle__Header'] {
 }
 .logo {
   background-color: var(--accent-color);
-  background-image: url('/images/LOGO/1-A0B5CF.svg');
+  background-image: url('images/LOGO/1-A0B5CF.svg');
   background-repeat: no-repeat;
   background-size: 150%;
   background-position: 50% 50%;
