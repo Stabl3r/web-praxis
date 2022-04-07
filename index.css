@@ -149,7 +149,7 @@ a:any-link {
   background-position: center;
 }
 .section-image.contact2 {
-  background-image: url(/images/maps-example.png);
+  background-image: url(images/maps-example.png);
   height: 80vh;
   background-position: center;
   position: relative;
@@ -358,7 +358,7 @@ body .socialBar > a {
 }
 .logo-footer {
   background-color: var(--accent-color);
-  background-image: url(/images/LOGO/1-A0B5CF.svg);
+  background-image: url(images/LOGO/1-A0B5CF.svg);
   background-repeat: no-repeat;
   background-size: 860%;
   background-position: 20.4% 44%;

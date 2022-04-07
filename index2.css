@@ -247,7 +247,7 @@ a:any-link {
   background-position: center;
 }
 .section-image.contact2 {
-  background-image: url(/images/maps-example.jpg);
+  background-image: url(images/maps-example.jpg);
   height: 80vh;
   background-position: center;
   position: relative;
@@ -456,7 +456,7 @@ body .socialBar > a {
   background-size: 122%;
   background-position: 100% 42%;
   background-color: var(--primary-color);
-  background-image: url(/images/LOGO/2.png);
+  background-image: url(images/LOGO/2.png);
 }
 #footer .section .cols {
   min-height: 300px;
@@ -471,7 +471,7 @@ body .socialBar > a {
 }
 .logo-footer {
   background-color: var(--primary-color);
-  background-image: url(/images/LOGO/2.svg);
+  background-image: url(images/LOGO/2.svg);
   background-repeat: no-repeat;
   background-size: 860%;
   background-position: 20.4% 44%;
