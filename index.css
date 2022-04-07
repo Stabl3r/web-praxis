@@ -14,6 +14,23 @@ body {
 body * {
   box-sizing: border-box;
 }
+.OTP {
+	margin-top: 2rem;
+}
+.OTP-link {
+	background: #55769a;
+    padding: 15px 30px;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+	text-decoration: none;
+}
+.OTP-link:any-link {
+	background: #55769a;
+    color: #fff;
+	text-decoration: none;
+}
 h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
