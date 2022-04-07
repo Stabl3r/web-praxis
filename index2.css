@@ -199,6 +199,12 @@ a:any-link {
   justify-content: center;
   align-items: center;
 }
+.section {
+  min-height: min(50vh, 500px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .section.google-rating button {
   margin-right: 18px;
 }
@@ -222,17 +228,17 @@ a:any-link {
 }
 .section-image.products {
   background-image: url(images/chair.jpg);
-  height: 45vh;
+  height: 50vh;
   background-position: 70% 0%;
 }
 .section-image.service {
   background-image: url(images/service.jpg);
-  height: 45vh;
+  height: 50vh;
   background-position: 70% 0%;
 }
 .section-image.social {
   background-image: url(images/social.jpg);
-  height: 45vh;
+  height: 50vh;
   background-position: 70% 0%;
 }
 .section-image.contact {
@@ -248,7 +254,7 @@ a:any-link {
 }
 .section-image.team {
   background-image: url(images/banner.jpg);
-  height: 40vh;
+  height: 50vh;
   background-position: 70% 0%;
 }
 .section {
@@ -352,7 +358,7 @@ a:any-link {
   overflow-y: auto;
   background-color: var(--theme-white);
   width: 100%;
-  max-width: 70vw;
+  max-width: min(70vw, 720px);
   max-height: 85vh;
   padding: 50px 30px 30px 30px;
   position: relative;
@@ -369,7 +375,9 @@ a:any-link {
   justify-content: center;
   align-items: right;
   cursor: pointer;
-  background-color: var(--theme-white);
+  background-color: var(--primary-color);
+  padding: 5px 15px;
+  color: var(--theme-white);
   margin: 0 0 0 auto;
 }
 #closeButton:hover {
@@ -481,6 +489,9 @@ body .socialBar > a {
   letter-spacing: 2px;
   font-weight: 400;
 }
+.section.google-rating script+a {
+  display: none !important;
+}
 .hamburger {
   position: relative;
   height: 35px;
@@ -539,7 +550,11 @@ body .socialBar > a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  cursor: pointer;
+  cursor: pointer;  
+  transition: 0.25s ease-in;
+}
+.card:hover {
+  background: #b3cae766;
 }
 .card-inner {
   padding: 5px 20px 25px 20px;
