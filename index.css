@@ -93,7 +93,7 @@ a:any-link {
 #content {
 }
 .stage {
-  background-image: url(images/stage.jpg);
+  background-image: url(images/stage.webp);
   background-position: 30% 0%;
   background-attachment: fixed;
   background-size: cover;
@@ -129,22 +129,22 @@ a:any-link {
   background-repeat: no-repeat;
 }
 .section-image.products {
-  background-image: url(images/chair.jpg);
+  background-image: url(images/chair.webp);
   height: 45vh;
   background-position: 70% 0%;
 }
 .section-image.service {
-  background-image: url(images/service.jpg);
+  background-image: url(images/service.webp);
   height: 45vh;
   background-position: 70% 0%;
 }
 .section-image.social {
-  background-image: url(images/social.jpg);
+  background-image: url(images/social.webp);
   height: 45vh;
   background-position: 70% 0%;
 }
 .section-image.contact {
-  background-image: url(images/contact.jpg);
+  background-image: url(images/contact.webp);
   height: 80vh;
   background-position: center;
 }
@@ -155,7 +155,7 @@ a:any-link {
   position: relative;
 }
 .section-image.team {
-  background-image: url(images/banner.jpg);
+  background-image: url(images/banner.webp);
   height: 40vh;
   background-position: 70% 0%;
 }
