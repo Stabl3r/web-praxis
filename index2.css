@@ -185,8 +185,6 @@ a:any-link {
 #topbarb a:not(:last-child) {
   margin-right: 4rem;
 }
-#content {
-}
 .stage {
   background-image: url(images/stage.webp);
   background-position: 30% 0%;
@@ -243,7 +241,7 @@ a:any-link {
   background-position: 70% 0%;
 }
 .section-image.social {
-  background-image: url(images/social.webp);
+  background-image: url(images/social.jpg);
   height: 50vh;
   background-position: 70% 0%;
 }
@@ -270,10 +268,7 @@ a:any-link {
 .section-image.team + .section {
   margin: 0px auto;
 }
-#Home {
-}
-#Team {
-}
+
 #team-slider {
   height: 355px;
   width: 285px;
@@ -325,12 +320,7 @@ a:any-link {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#Leistungen {
-}
-#Kontakt {
-}
-#contact {
-}
+
 
 .slick-list,
 .slick-track {
