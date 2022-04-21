@@ -38,3 +38,24 @@ Dank bestmöglicher Detailschärfe und 90%-er Reduktion der Röntgen-Strahlenbel
 
 
 Wurzelbehandlung
+
+• Funktionstherapie: 
+Vorbeugung von Kiefergelenkschmerzen, Muskelverspannungen, Vermeidung beschleunigter Zahnsubstanzabnutzung
+
+ • Alterszahnheilkunde
+intensivierte Mundhygiene-, Prothesensitz- und Schleimhautkontrolle
+Kooperation mit Senioreneinrichtungen
+
+ • Endodontie
+schnwrzfreie maschinelle Aufbereitung und schallaktivierte Desinfektion der Wurzelkanäle
+(zur zuverlässigsten Zahnerhaltung ?)
+
+ • Ästhetik
+Bleaching
+hochwertige zahnfarbene Composit Füllungen
+vollkeramische Facetten, Inlays
+unsichtbare Zahnspangen zur Zahnstellungskorrektur (für Erwachsene)
+
+ • Kinderzahnheilkunde
+intensive Prophylaxe zur Kariesprävention
+spielerisches Heranführen an die Behandlung
