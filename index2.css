@@ -232,12 +232,12 @@ a:any-link {
   background-position: 70% 0%;
 }
 .section-image.service {
-  background-image: url(images/service.webp);
+  background-image: url(images/service.jpg);
   height: 50vh;
   background-position: 70% 0%;
 }
 .section-image.social {
-  background-image: url(images/social.webp);
+  background-image: url(images/social.jpg);
   height: 50vh;
   background-position: 70% 0%;
 }
@@ -253,7 +253,7 @@ a:any-link {
   position: relative;
 }
 .section-image.team {
-  background-image: url(images/banner.webp);
+  background-image: url(images/banner.jpg);
   height: 50vh;
   background-position: 70% 0%;
 }

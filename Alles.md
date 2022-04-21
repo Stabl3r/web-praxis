@@ -51,10 +51,7 @@ schnwrzfreie maschinelle Aufbereitung und schallaktivierte Desinfektion der Wurz
 (zur zuverlässigsten Zahnerhaltung ?)
 
  • Ästhetik
-Bleaching
-hochwertige zahnfarbene Composit Füllungen
-vollkeramische Facetten, Inlays
-unsichtbare Zahnspangen zur Zahnstellungskorrektur (für Erwachsene)
+Von Bleaching über Zahnkorrekturstellungen tuen wir tuen wir alles für ihr Lächeln
 
  • Kinderzahnheilkunde
 intensive Prophylaxe zur Kariesprävention
