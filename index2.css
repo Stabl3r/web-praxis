@@ -64,7 +64,7 @@ div[class*='WidgetTitle__Header'] {
 }
 .logo {
   background-color: var(--logo-bg-color);
-  background-image: url('/images/LOGO/1-A0B5CF.svg');
+  background-image: url('images/LOGO/1-A0B5CF.svg');
   background-repeat: no-repeat;
   background-size: 150%;
   background-position: 50% 50%;
@@ -182,7 +182,7 @@ a:any-link {
 #content {
 }
 .stage {
-  background-image: url(images/stage.jpg);
+  background-image: url(images/stage.webp);
   background-position: 30% 0%;
   background-attachment: fixed;
   background-size: cover;
@@ -198,6 +198,12 @@ a:any-link {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.section {
+  min-height: min(50vh, 500px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .section.google-rating button {
   margin-right: 18px;
@@ -221,34 +227,34 @@ a:any-link {
   background-repeat: no-repeat;
 }
 .section-image.products {
-  background-image: url(images/chair.jpg);
-  height: 45vh;
+  background-image: url(images/chair.webp);
+  height: 50vh;
   background-position: 70% 0%;
 }
 .section-image.service {
-  background-image: url(images/service.jpg);
-  height: 45vh;
+  background-image: url(images/service.webp);
+  height: 50vh;
   background-position: 70% 0%;
 }
 .section-image.social {
-  background-image: url(images/social.jpg);
-  height: 45vh;
+  background-image: url(images/social.webp);
+  height: 50vh;
   background-position: 70% 0%;
 }
 .section-image.contact {
-  background-image: url(images/contact.jpg);
+  background-image: url(images/contact.webp);
   height: 80vh;
   background-position: center;
 }
 .section-image.contact2 {
-  background-image: url(/images/maps-example.jpg);
+  background-image: url(images/maps-example.webp);
   height: 80vh;
   background-position: center;
   position: relative;
 }
 .section-image.team {
-  background-image: url(images/banner.jpg);
-  height: 40vh;
+  background-image: url(images/banner.webp);
+  height: 50vh;
   background-position: 70% 0%;
 }
 .section {
@@ -352,7 +358,7 @@ a:any-link {
   overflow-y: auto;
   background-color: var(--theme-white);
   width: 100%;
-  max-width: 70vw;
+  max-width: min(70vw, 720px);
   max-height: 85vh;
   padding: 50px 30px 30px 30px;
   position: relative;
@@ -369,7 +375,9 @@ a:any-link {
   justify-content: center;
   align-items: right;
   cursor: pointer;
-  background-color: var(--theme-white);
+  background-color: var(--primary-color);
+  padding: 5px 15px;
+  color: var(--theme-white);
   margin: 0 0 0 auto;
 }
 #closeButton:hover {
@@ -448,7 +456,7 @@ body .socialBar > a {
   background-size: 122%;
   background-position: 100% 42%;
   background-color: var(--primary-color);
-  background-image: url(/images/LOGO/2.png);
+  background-image: url(images/LOGO/2.png);
 }
 #footer .section .cols {
   min-height: 300px;
@@ -463,7 +471,7 @@ body .socialBar > a {
 }
 .logo-footer {
   background-color: var(--primary-color);
-  background-image: url(/images/LOGO/2.svg);
+  background-image: url(images/LOGO/2.svg);
   background-repeat: no-repeat;
   background-size: 860%;
   background-position: 20.4% 44%;
@@ -480,6 +488,9 @@ body .socialBar > a {
 .section.google-rating button span {
   letter-spacing: 2px;
   font-weight: 400;
+}
+.section.google-rating script+a {
+  display: none !important;
 }
 .hamburger {
   position: relative;
@@ -539,7 +550,11 @@ body .socialBar > a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  cursor: pointer;
+  cursor: pointer;  
+  transition: 0.25s ease-in;
+}
+.card:hover {
+  background: #b3cae766;
 }
 .card-inner {
   padding: 5px 20px 25px 20px;
