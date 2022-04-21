@@ -50,6 +50,12 @@ body * {
 .OTP-link:hover {
   background: var(--secondary-color);;
 }
+a.anchor {
+  display: block;
+  position: relative;
+  top: -130px;
+  visibility: hidden;
+}
 
 h1,h5 {
   text-transform: uppercase;
@@ -187,7 +193,7 @@ a:any-link {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height: max(calc(100vh - 340px), 550px);
+  height: max(calc(100vh - 220px), 550px);
   display: flex;
   justify-content: center;
 }
@@ -200,10 +206,10 @@ a:any-link {
   align-items: center;
 }
 .section {
-  min-height: min(50vh, 500px);
+  /* min-height: min(50vh, 500px); */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .section.google-rating button {
   margin-right: 18px;
@@ -228,12 +234,12 @@ a:any-link {
 }
 .section-image.products {
   background-image: url(images/chair.webp);
-  height: 50vh;
+  height: calc(100vh - 498px);
   background-position: 70% 0%;
 }
 .section-image.service {
   background-image: url(images/service.webp);
-  height: 50vh;
+  height: calc(100vh - 498px);
   background-position: 70% 0%;
 }
 .section-image.social {
@@ -254,12 +260,15 @@ a:any-link {
 }
 .section-image.team {
   background-image: url(images/banner.webp);
-  height: 50vh;
+  height: calc(100vh - 630px);
   background-position: 70% 0%;
 }
 .section {
   max-width: 1200px;
   margin: 50px auto;
+}
+.section-image.team + .section {
+  margin: 0px auto;
 }
 #Home {
 }
@@ -451,6 +460,7 @@ body .socialBar > a {
   width: 100%;
   min-height: 300px;
   text-transform: capitalize;
+  padding: 0 15px;
 }
 #footer .logo {
   background-size: 122%;
@@ -552,6 +562,7 @@ body .socialBar > a {
   justify-content: space-between;
   cursor: pointer;  
   transition: 0.25s ease-in;
+  min-height: 169px !important;
 }
 .card:hover {
   background: #b3cae766;
@@ -579,6 +590,16 @@ body .socialBar > a {
 .card h5 {
   margin: 1rem 0 0.5rem 0;
   font-weight: 700;
+}
+.card i {
+  transition: 0.25s ease-out;
+}
+.card:hover a > i {
+  margin-left: 0.1rem;
+  transition: 0.15s ease-in;
+}
+.card:hover a.readmore{
+  font-weight: 400;
 }
 .cards.grey .card .linkbutton {
   align-self: flex-start;
