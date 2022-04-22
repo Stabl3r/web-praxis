@@ -446,7 +446,8 @@ body .socialBar > a {
 }
 
 #footer {
-  background: var(--primary-color);
+  background: #2a3d58;
+  /* background: var(--primary-color); */
   color: var(--theme-white);
   position: relative;
   width: 100%;
@@ -455,9 +456,10 @@ body .socialBar > a {
   padding: 0 15px;
 }
 #footer .logo {
-  background-size: 122%;
-  background-position: 100% 42%;
-  background-color: var(--primary-color);
+  background-size: 130%;
+  background-position: 78% 62%;
+  background-color: #2a3d58;
+  /* background-color: var(--primary-color); */
   background-image: url(images/LOGO/2.png);
 }
 #footer .section .cols {
@@ -472,7 +474,8 @@ body .socialBar > a {
   min-height: 300px;
 }
 .logo-footer {
-  background-color: var(--primary-color);
+  background-color: #2a3d58;
+  /* background-color: var(--primary-color); */
   background-image: url(images/LOGO/2.svg);
   background-repeat: no-repeat;
   background-size: 860%;
