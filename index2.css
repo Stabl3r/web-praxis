@@ -56,7 +56,9 @@ a.anchor {
   top: -130px;
   visibility: hidden;
 }
-
+a#contact.anchor {
+  top: -0px;
+}
 h1,h5 {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -241,7 +243,7 @@ a:any-link {
   background-position: 70% 0%;
 }
 .section-image.social {
-  background-image: url(images/social.jpg);
+  background-image: url(images/social.webp);
   height: 50vh;
   background-position: 70% 0%;
 }
