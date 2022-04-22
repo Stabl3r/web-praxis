@@ -330,6 +330,7 @@ Rechtsgrundlage für die Verarbeitung Ihrer Daten ist Artikel 9 Absatz 2 lit. h)
 
 Impressum
 
+
 ZAHNÄRZTE
 AM KÖNIGSBERGER PLATZ
 Dr. Ina Hefter
@@ -353,6 +354,7 @@ Mi, Fr:
 08:00 - 12:00
 und nach Vereinbarung
 
+
 Berufsbezeichnung Zahnarzt verliehen in Deutschland.
 
 Zahnärztekammer:
@@ -369,7 +371,6 @@ Heilberufsgesetz NRW,Berufsordnung und Weiterbildungsordnung der Zahnärztekamme
 
 Bildnachweis:
 
-
 stage.webp - https://www.shutterstock.com/de/image-photo/close-portrait-beautiful-young-lady-sitting-1341694238
 © Olena Yakobchuk
 
@@ -385,12 +386,9 @@ banner.webp - https://www.shutterstock.com/de/image-illustration/component-denta
 social.webp - https://www.shutterstock.com/de/image-photo/routes-blue-pins-on-city-map-1897470934
 © Triff
 
+
 Inhaltlich verantwortlich gemäß §5 Telemediengesetz (TMG)
 Frau Ina Hefter
 
 Konzept, Design, Programmierung:
 Blade und Blage
-
-©Praxisfotos:
-rischko architekten, Oliver Rischko
-www.rischko.com - Praxisarchitektur
