@@ -261,7 +261,7 @@ a:any-link {
 .section-image.team {
   background-image: url(images/banner.webp);
   height: calc(100vh - 630px);
-  background-position: 70% 0%;
+  background-position: 0% 50%;
 }
 .section {
   max-width: 1200px;
@@ -272,10 +272,10 @@ a:any-link {
 }
 
 #team-slider {
-  height: 355px;
-  width: 285px;
   text-align: center;
   margin: 0 auto;
+  height: 355px;
+  width: 285px;
 }
 .member {  
   filter: grayscale(100%);
@@ -321,6 +321,7 @@ a:any-link {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 170px;
 }
 
 
@@ -528,6 +529,9 @@ body .socialBar > a {
 .hide-mobile {
   display: flex;
 }
+.hide-mobile-block {
+  display: block;
+}
 .show-mobile {
   display: none !important;
 }
@@ -648,6 +652,9 @@ body .socialBar > a {
   .hide-mobile {
     display: none !important;
   }
+  .hide-mobile-block {
+    display: none !important;
+  }
   .stage-section {
     padding: 0px 15px;
   }
@@ -661,4 +668,23 @@ body .socialBar > a {
   .col-wrapper > div{
     margin: 0 auto;
   }
+  #footer .section .cols {
+    min-height: 200px;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  .logo-footer, #footer .section, #footer {
+    height: unset !important;
+    min-height: unset !important;
+  }
+  .logo-footer {
+    background-position: 20.4% 55%;
+  }
+  .avatar-wrapper {
+    flex-direction: column;
+  }
+}
+
+body .splide .splide__arrow {
+  top: 60%;
 }
