@@ -30,11 +30,15 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
-
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+          
+      - name: Deploy file
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: ${{ secrets.FTP_URL }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PW }}
-          protocol: ftps
+            username: ${{ secrets.FTP_USER }}
+            server: ${{ secrets.FTP_URL }}
+            port: 22
+            local_path: './*'
+            remote_path: '/'
+            sftp_only: true
+            password: ${{ secrets.FTP_PW }}
+            
