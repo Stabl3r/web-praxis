@@ -31,3 +31,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
 
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: ${{ secrets.FTP_URL }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PW }}
+          protocol: ftps
