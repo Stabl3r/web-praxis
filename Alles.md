@@ -69,18 +69,6 @@ Bestehen Streitigkeiten aus dem Behandlungsverhältnis mit unserer Praxis besteh
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 DATENSCHUTZERKLÄRUNG
 
  
@@ -88,18 +76,15 @@ DATENSCHUTZERKLÄRUNG
 Informationen über die Erhebung personenbezogener Daten auf unserer Webseite
 
  
-
- 
-
 Wir möchten Sie darüber informieren, dass beim Besuch unserer Webseite personenbezogene Daten erhoben werden. Personenbezogen sind Daten, die auf sie persönlich beziehbar sind (z. B. Name, E-Mail, Nutzerverhalten).
 
  
 
-Verantwortlich für die Erhebung und Speicherung der Daten ist Pascal Schumacher, erreichbar unter der Praxisanschrift Weißhausstraße 21, 50939 Köln , der E-Mail: info@cologne-smiles.de und der Telefonnummer 0221 4848 2378.
+Verantwortlich für die Erhebung und Speicherung der Daten ist Ina Hefter, erreichbar unter der Praxisanschrift Königsberger Platz 5, 51371 Leverkusen, der E-Mail: Mail@Z-Kp.de und der Telefonnummer 0214 22654
 
  
 
-Unseren Datenschutzbeauftragte Jasmin Schumacher erreichen Sie unter der oben genannten Praxisanschrift.
+Unseren Datenschutzbeauftragte H. Hefter erreichen Sie unter der oben genannten Praxisanschrift.
 
  
 
@@ -199,39 +184,11 @@ Sie haben uns gegenüber folgende Rechte, hinsichtlich der bei uns über Sie ges
 
 Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren.
 
- 
-
-Cookies
-Zusätzlich zu diesen Daten nutzen wir über unsere Webseite auch Cookies. Dies sind kleine Textprogramme, die nach Besuch unserer Webseite auf ihrem Rechner (in ihrem Browser) gespeichert werden. Sollten sie unsere Webseite danach erneut besuchen, so sendet der von ihnen genutzte Browser die in dem Cookie gespeicherten Informationen an unsere Webseite und kann ihnen so bspw. die Navigation erleichtern, weil Voreinstellungen übernommen werden. Cookies sind keine Viren, und können auch keine Schadsoftware auf dem Computer installieren. Sie sind nur kurze Texte, die zwischen Webserver und Browser ausgetauscht werden. Auf unserer Webseite werden folgende Arten von Cookies verwendet:
-
- 
-
-Session Cookie- PHPSESSID XS
-
-Dabei handelt es sich um einen Session-Cookie, der notwendig ist, um alle Funktionen auf der Seite zu nutzen. Er wird automatisch durch den Internetbrowser auf dem Computer gespeichert. Er dient dazu, eine Session–ID zu erstellen, um Sie während des Aufrufens der Seite zu identifizieren und mehrere zusammengehörige Anfragen eines Benutzers zu erkennen und einer Sitzung zuzuordnen.
-
- 
-
-▪    Transiente Cookies (temporäre Cookies)
-
-Diese Cookies werden nur für den Zeitraum der Nutzung ihres Browsers gespeichert. Diese speichern eine sogenannte Session-ID, mit welcher sich verschiedene Anfragen Ihres Browsers der gemeinsamen Sitzung zuordnen lassen. Dadurch kann Ihr Rechner wiedererkannt werden, wenn Sie auf die Webseite zurückkehren. Sobald sie den Browser schließen, werden auch diese Cookies automatisch gelöscht.
-
- 
-
-▪    Persistente Cookies (zeitlich beschränkte Cookies)
-
-Diese Cookies unterscheiden sich von den Transienten Cookies lediglich dadurch, dass sie beim Schließen des Browsers nicht automatisch gelöscht werden, sondern erst nach einer voreingestellten Zeit. Sie können diese Cookies jedoch jederzeit über die Einstellungen ihres Browsers löschen.
-
- 
-
-Grundsätzlich können sie die Einstellungen ihres Browsers so konfigurieren, dass Cookies gar nicht oder nur eingeschränkt von diesem angenommen und gespeichert werden. Wenn sie von dieser Möglichkeit Gebrauch machen, kann es jedoch zu Einschränkungen bei der Nutzbarkeit unserer Webseite kommen.
-
- 
 
 Kontaktformular
 Wenn Sie uns per Kontaktformular Terminwünsche oder Anfragen zukommen lassen, werden die von Ihnen mitgeteilten Daten (E-Mail-Adresse, Name, Telefonnummer) gespeichert, um Ihre Fragen beantworten zu können. Diese Daten werden gelöscht, sobald sie nicht mehr benötigt werden und keine gesetzlichen Aufbewahrungspflichten bestehen. Dritten werden diese Daten nicht zugänglich gemacht.
 
- 
+
 
 Google Maps API
 Um Ihnen den Anfahrtsweg zu uns visuell darzustellen, nutzen wir Google Maps zur Darstellung von Karten und zur Erstellung von Anfahrtsplänen.
