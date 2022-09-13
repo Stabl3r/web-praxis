@@ -29,9 +29,9 @@ jobs:
         uses: wangyucode/sftp-upload-action@v1.4.5
         with:
           host: ${{ secrets.FTP_URL }}
-          username: ${{ secrets.FTP_USER }}
+          username: u87828332-blade
           password: ${{ secrets.FTP_PW }}
           localDir: './'
-          remoteDir: '/yz'
+          remoteDir: '/'
 
             
