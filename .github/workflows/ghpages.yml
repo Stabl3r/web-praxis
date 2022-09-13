@@ -33,5 +33,6 @@ jobs:
           password: ${{ secrets.FTP_PW }}
           localDir: './'
           remoteDir: '/'
+          dryRun: false
 
             
