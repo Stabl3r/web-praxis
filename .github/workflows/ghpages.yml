@@ -31,14 +31,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
           
-      - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
-        with:
-          ftp-server: sftp://${{ secrets.FTP_URL }}
-          ftp-username: ${{ secrets.FTP_USER }}
-          ftp-password: ${{ secrets.FTP_PW }}
-          local-dir: ./
-          
       - name: Deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
@@ -46,7 +38,7 @@ jobs:
             server: ${{ secrets.FTP_URL }}
             port: 22
             local_path: './*'
-            remote_path: '/'
+            remote_path: '/home'
             sftp_only: true
             password: ${{ secrets.FTP_PW }}
             
