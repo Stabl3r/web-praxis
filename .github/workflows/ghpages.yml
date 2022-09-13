@@ -37,7 +37,6 @@ jobs:
           ftp-server: sftp://${{ secrets.FTP_URL }}
           ftp-username: ${{ secrets.FTP_USER }}
           ftp-password: ${{ secrets.FTP_PW }}
-          port: 22
           local-dir: ./
           
       - name: Deploy file
