@@ -926,9 +926,9 @@
     <!-- <div id="contact" id="contact"></div> -->
     <div class="section-image con-tact2" style="position: relative" id="Kontakt2">
       <div class="gmap">
-        <iframe style="width: 100vw; height: calc(100vh - 430px); min-height: 600px; filter: grayscale(100%);"
+        <iframe loading="lazy" style="width: 100vw; height: calc(100vh - 430px); min-height: 600px; filter: grayscale(100%);"
           src="https://maps.google.com/maps?width=1200&amp;height=500&amp;hl=en&amp;q=K%C3%B6nigsbergerplatz%205%2051371+(Zahn%C3%A4rzte%20am%20K%C3%B6nigsbergerplatz)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed"
-          frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          frameborder="0" scrolling="no" marginheight="0" marginwidth="0" ></iframe>
       </div>
       <div class="contact-banner">
         <div>
@@ -1078,10 +1078,7 @@
         gap: 10,
       }).mount();
 
-    });
-  </script>
-  <script>
-    $('#modal').each((i, e) => {
+      $('#modal').each((i, e) => {
       $(e).on('click', (ev) => {
         ev.stopImmediatePropagation();
       })
@@ -1126,7 +1123,10 @@
       $('#topmenu').toggleClass('open');
       $('.shader').fadeToggle()
     })
+
+    });
   </script>
+  
 
 </body>
 
