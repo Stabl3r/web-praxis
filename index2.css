@@ -213,6 +213,17 @@ a:any-link {
   display: flex;
   justify-content: center;
 }
+@supports ( -webkit-touch-callout : none) {
+  .stage {
+  background-attachment:scroll
+  }
+}
+  
+@supports not ( -webkit-touch-callout : none) {
+  .stage {
+  background-attachment: fixed;
+  }
+}
 .stage-content-wrapper {
   max-width: 1200px;
   height: 100%;
